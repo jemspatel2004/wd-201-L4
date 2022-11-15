@@ -1,6 +1,8 @@
 const todoList = () => {
   const all = [];
 
+  /////////////////////////////////////////////
+
   let today = new Date().toLocaleDateString("en-CA");
   const add = (todoItem) => {
     all.push(todoItem);
